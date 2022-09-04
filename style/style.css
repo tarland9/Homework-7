@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#Header{
+    display: flex;
+    justify-content:space-between ;
+    padding: 1rem 15rem;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    
+}
+.center a{
+    margin-left: 20px;
+}
+.bottom-1 a{
+    color: #252525;
+    background-color: #fff;
+    padding: 15px 35px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.center a{
+  margin-right: 40px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+}
+#Header a i{
+    margin-left: 5px;
+}
+#Basliq{
+    padding: 12rem 15rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+}
+#page-1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: bottom;
+    width: 100%;
+    
+   
+}
+.page-1{
+    width: 100%;
+    margin-bottom: 40px;
+    border: 0px solid #F2F2F2;
+    padding-right: 20px;
+    
+   
+}
+.sol{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.sol h1{
+    position: absolute;
+    padding-top: 45px;
+    margin-bottom: 30px;
+    font-size: 55px;
+    color: #fff;
+    width: 72%;
+}
+.sol p{
+    font-size: 20px;
+    color: #fff;
+    width: 72%;
+    margin-top: 100px;
+
+}
+.sol img{
+    width: 100%;
+}
+.sag{
+
+    width: 50%;
+    vertical-align: bottom;
+}
+.sag img{
+    width: 100%;
+}
+#esas{
+    padding: 1rem 15rem;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+}
+
+#all{
+    padding: 1rem 19rem;
+}
+.top{
+
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    
+}
+
+
+.top h4{
+    position: absolute;
+    width: 100%;
+    font-size: 36px;
+    top:80px;
+}
+.bottom{
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: bottom;
+    
+    
+}
+.box{
+    width: 29%;
+    margin-bottom: 40px;
+    border: 0px solid #F2F2F2;
+    
+    position: relative;
+}
+.img img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    vertical-align: bottom;
+
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.icons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    top: 0%;
+    right: 0%;
+    content: '';
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.icons i{
+   margin-bottom: 15px;
+   font-size: 20px;
+   padding-top: 10px;
+}
+#esas{
+   
+    padding: 7rem 15rem;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+}
+.yazi{
+    width: 50%;
+}
+.yazi h4{
+    position: absolute;
+    width: 80%;
+    font-size: 36px;
+    margin-left: 52px;
+    color: #fff;
+}
+.yazi img{
+    margin-bottom: -78px;
+    position: relative;
+
+}
+.ss p{
+width: 58%;
+color: #fff;
+font-size: 15px;
+margin-top: 82px;
+margin-left: 78px;
+padding-bottom: 34px;
+}
+.ss{
+    text-align: center;
+}
+.ss a{
+    color: #252525;
+    background-color: #fff;
+    padding: 15px 35px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+#Bottom1{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+    padding: 7rem 15rem;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+.top-bottom h2{
+    color: #F2F2F2;
+    position: absolute;
+    top: 36%;
+    left: 35%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.top-bottom img{
+    margin-bottom: 60px;
+
+}
+.bottom-top{
+    position: relative;
+
+}
+.bottom-top p{
+    font-size: 20px;
+    color: #F2F2F2;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.bottom-top .a{
+    background-color: #F2F2F2;
+    padding: 21px 161px;
+    border-color: #F2F2F2;
+    border-radius: 35px;
+    text-align: inherit;
+}
+.bottom-top .b{
+    font-size: 16px;
+    padding: 15px 28px;
+    background-color: #006BA6;
+    color: #fff;
+    border-color: #006BA6;
+    border-radius: 35px;
+    position: absolute;
+    top: 56%;
+    right: 33%;
+    transition: 0.5s;
+}
+.b:hover{
+    background-color: #5dacd6;
+}
